@@ -134,7 +134,7 @@ ATF_COMPILE=yes
 # algorithm which doesn't play well with SBCs (need 1GiB RAM by default !)
 # https://gitlab.com/cryptsetup/cryptsetup/-/issues/372
 [[ -z $CRYPTROOT_PARAMETERS ]] && CRYPTROOT_PARAMETERS="--pbkdf pbkdf2"
-[[ -z $WIREGUARD ]] && WIREGUARD="no"
+[[ -z $WIREGUARD ]] && WIREGUARD="yes"
 [[ -z $EXTRAWIFI ]] && EXTRAWIFI="yes"
 [[ -z $SKIP_BOOTSPLASH ]] && SKIP_BOOTSPLASH="no"
 [[ -z $AUFS ]] && AUFS="yes"
